@@ -1,5 +1,3 @@
-// g++ -Wall -std=c++11 object.cpp main.cpp -o a.out -lGL -lglut -lGLU
-
 #include <iostream>
 #include <vector>
 #include <GL/glut.h>
