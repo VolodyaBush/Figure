@@ -10,9 +10,9 @@
 class Triangle: public Object
 {
 public:
-   Triangle(vector<Point> _points);
-   Triangle(vector<Point> _points, const Color& _color);
-   void override Draw();
+   Triangle(std::vector<Point> _points);
+   Triangle(std::vector<Point> _points, const Color& _color);
+   void Draw() override;
 };
 
-#endif TRIANGLE_H_
+#endif

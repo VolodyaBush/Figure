@@ -10,9 +10,9 @@
 class Square: public Object
 {
 public:
-   Square(vector<Point> _points);
-   Square(vector<Point> _points, const Color& _color);
-   void override Draw();
+   Square(std::vector<Point> _points);
+   Square(std::vector<Point> _points, const Color& _color);
+   void Draw() override;
 };
 
-#endif SQUARE_H_
+#endif

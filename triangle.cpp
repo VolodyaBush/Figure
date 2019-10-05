@@ -1,8 +1,8 @@
 #include "triangle.h"
 
-Triangle::Triangle(vector<Point> _points): Object(_points){}
+Triangle::Triangle(std::vector<Point> _points): Object(_points){}
 
-Triangle::Triangle(vector<Point> _points, const Color& _color): Object(_points, _color){}
+Triangle::Triangle(std::vector<Point> _points, const Color& _color): Object(_points, _color){}
 
 void Triangle::Draw()
 {

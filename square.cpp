@@ -1,8 +1,8 @@
-#include "square.h";
+#include "square.h"
 
-Square::Square(vector<Point> _points): Object(_points){}
+Square::Square(std::vector<Point> _points): Object(_points){}
 
-Square::Square(vector<Point> _points, const Color& _color): Object(_points,_color){}
+Square::Square(std::vector<Point> _points, const Color& _color): Object(_points,_color){}
 
 void Square::Draw()
 {

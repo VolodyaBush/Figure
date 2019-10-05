@@ -30,7 +30,7 @@ int main(int argc, char** argv) {
   glutInitWindowPosition(300,100);
   glutCreateWindow("Figure");
 
-  vector<Point> trianglePoints;
+  std:: vector<Point> trianglePoints;
   trianglePoints.push_back(Point(-0.5,-0.5,0.0));
   trianglePoints.push_back(Point(0.5,-0.5,0.0));
   trianglePoints.push_back(Point(0.0,0.5,0.0));
